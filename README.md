@@ -7,3 +7,5 @@ Day 3(Circle Style) Preview: https://ircletyle.oneapp.dev/
 Day 4(Hidden Search) Preview : https://iddenearch.oneapp.dev/
 
 Day 5(Blurry Loading) Preview : https://lurryoading.oneapp.dev/
+
+Day 6(Scroll Animation) Preview : https://crollnimation.oneapp.dev/

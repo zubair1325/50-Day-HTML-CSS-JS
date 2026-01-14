@@ -1,0 +1,37 @@
+body {
+  width: 100vw;
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #efedd6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  overflow-x: hidden;
+}
+.box {
+  background-color: rgba(0, 0, 255, 0.589);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+.box:hover {
+  background-color: rgba(0, 0, 255, 0.322);
+}
+.box:nth-of-type(even) {
+  background-color: black;
+  transform: translateX(-400%);
+}
+.box:hover:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.473);
+}
+.box.show {
+  transform: translateX(0);
+}
