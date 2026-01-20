@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+h1 {
+  color: white;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+button {
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding: 1.2rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: transparent;
+  color: whitesmoke;
+  font-weight: 600;
+  border: 2px solid white;
+  transition: all 0.2s linear;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.651);
+  color: rgb(126, 126, 190);
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.split {
+  height: 100vh;
+  width: 50%;
+  position: absolute;
+  transition: all 0.3s linear;
+}
+.split.left {
+  left: 0;
+  background-image: url("https://storage.googleapis.com/pickaboo-prod/media/catalog/product/p/s/ps5-disc-version-13.12.23.jpg_1_1_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.split.right {
+  right: 0;
+  background-image: url("https://img.drz.lazcdn.com/static/bd/p/0d63ab9df0512fa261239836963b9efe.jpg_720x720q80.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.split.left::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.295);
+  height: 100%;
+  width: 100%;
+}
+.split.right::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: rgba(15, 143, 255, 0.205);
+  height: 100%;
+  width: 100%;
+}
+.left-content,
+.right-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container.left-active .left {
+  width: 75%;
+}
+
+.container.left-active .right {
+  width: 25%;
+}
+
+.container.right-active .right {
+  width: 75%;
+}
+
+.container.right-active .left {
+  width: 25%;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  button {
+    padding: 1rem 1.1rem;
+    font-size: 1rem;
+  }
+}
