@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #9668cd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  overflow: hidden;
+}
+
+button {
+  background-color: #613f8c;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+button:hover {
+  background-color: #603f8cb4;
+}
