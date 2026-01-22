@@ -15,3 +15,7 @@ Day 7(Split Landing Page) Preview : https://split-landing-page.oneapp.dev/
 Day 8(Form Input Wave) Preview : https://form-input-wave.oneapp.dev/
 
 Day 9(Sound Board) Preview : https://sound-board.oneapp.dev/ (note that onecompiler has no functionality to upload audio file so there is not sound, for batter experience run this on local device )
+
+Day 10(Dad Jokes) Preview : https://dad-jokes.oneapp.dev/
+
+Day 11(Event Key Code) Preview : https://event-key-code.oneapp.dev/
