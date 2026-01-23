@@ -19,3 +19,5 @@ Day 9(Sound Board) Preview : https://sound-board.oneapp.dev/ (note that onecompi
 Day 10(Dad Jokes) Preview : https://dad-jokes.oneapp.dev/
 
 Day 11(Event Key Code) Preview : https://event-key-code.oneapp.dev/
+
+Day 12(FAQ) Preview :https://fun-faq.oneapp.dev/
